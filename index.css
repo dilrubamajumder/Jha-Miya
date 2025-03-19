@@ -1,0 +1,185 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #c7abab;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px ;
+    background-color: #d5b2b2;
+    padding-bottom: 0%;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+    color: #000000;
+}
+
+
+/* description */
+.about-miya{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    padding: 20px 5%;
+    text-align: left;
+}
+
+/* About Miya Section */
+.miya-content {
+    color: #1f1d1d; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-align: center;
+    padding: 50px 50px;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading  */
+.miya-content h1 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #070707; /* Soft rose color */
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+/* Paragraph  */
+.miya-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+
+/* Highlighted Words */
+.miya-content strong {
+    color: #9f4963; 
+}
+
+
+
+
+
+#things-miya-loves {
+    text-align: center;
+    padding: 20px 20px;
+    max-width: 900px;
+    margin: auto;
+    font-size: 20px;
+}
+
+#things-miya-loves h1 {
+   font-size: 38px;
+    color: #9f4963;
+}
+
+.favorites-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.favorite-item {
+    background: #f7b0ba; 
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 150px;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    color: #9f4963;
+    border-color: #9f4963;
+}
+
+.favorite-item img {
+    width: 250px;
+    height: 220px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.favorite-item p {
+    font-size: 12px; 
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.tools-miya-loves {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.tools-miya-loves h1 {
+   font-size: 38px;
+    color: #9f4963;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    margin-top: 20px;
+    justify-items: center; 
+}
+
+.tools-item {
+    background: #f7b0ba; 
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 150px;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    color: #9f4963;
+    border-color: #9f4963;
+}
+
+.tools-item img {
+    width: 250px;
+    height: 220px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.tools-item p {
+    font-size: 15px; 
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+.final-p{
+    text-align: center;
+    padding: 20px 20px;
+    max-width: 900px;
+    margin: auto;
+    font-size: 20px;
+}
